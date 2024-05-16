@@ -1,0 +1,178 @@
+
+    *,html{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        color: #000000;
+        scroll-behavior: smooth;
+    }
+
+    html{
+        margin: 0;padding: 0;
+        scroll-behavior: smooth;
+    }
+    
+    .navbar{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 80px;
+        padding: 5px 5%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border: 1px solid red;
+        background: linear-gradient(rgb(220, 220, 220),rgb(225, 225, 225));
+        z-index: 999;
+    }
+    
+    .navbar .logo{
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+    }
+
+    .navbar .menu{
+        width: 100%;
+        display: flex;
+        width: 100%;
+        justify-content: end;
+        gap: 15px;
+    }
+
+    .navbar .menu a{
+        text-decoration: none;
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    .navbar .menu a:hover{
+        color: rgb(94, 0, 94);
+    }
+
+    .home{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        padding: 20px 5%;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+        background-image: radial-gradient(circle at 13% 47%, rgba(140, 140, 140,0.03) 0%, rgba(140, 140, 140,0.03) 25%,transparent 25%, transparent 100%),radial-gradient(circle at 28% 63%, rgba(143, 143, 143,0.03) 0%, rgba(143, 143, 143,0.03) 16%,transparent 16%, transparent 100%),radial-gradient(circle at 81% 56%, rgba(65, 65, 65,0.03) 0%, rgba(65, 65, 65,0.03) 12%,transparent 12%, transparent 100%),radial-gradient(circle at 26% 48%, rgba(60, 60, 60,0.03) 0%, rgba(60, 60, 60,0.03) 6%,transparent 6%, transparent 100%),radial-gradient(circle at 97% 17%, rgba(150, 150, 150,0.03) 0%, rgba(150, 150, 150,0.03) 56%,transparent 56%, transparent 100%),radial-gradient(circle at 50% 100%, rgba(25, 25, 25,0.03) 0%, rgba(25, 25, 25,0.03) 36%,transparent 36%, transparent 100%),radial-gradient(circle at 55% 52%, rgba(69, 69, 69,0.03) 0%, rgba(69, 69, 69,0.03) 6%,transparent 6%, transparent 100%),linear-gradient(90deg, rgb(255,255,255),rgb(255,255,255));    }
+    .home .contents{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        margin-bottom: 20px;
+    } 
+
+    .home .contents h1{
+        font-size: 50px;
+        color: #232323;
+    }
+
+    .home .contents h3{
+        font-size: 40px;
+        color: #434343;
+    }
+
+    .home .contents h3 span{
+        color:rgb(90, 0, 128);
+    }
+
+    .home .contents h1 span{
+        color: rgb(73, 22, 184);
+    }
+    
+    .home .contents .cont{
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .home .contents.cont h2{
+        font-size: 30px;
+    }
+ 
+    .home .contents .para{
+        font-size: 22px;
+        line-height: 1.5;
+        color: rgb(41, 41, 41);
+    }
+
+    .home .myphoto{
+        width: 400px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 5px;
+        border: 5px solid purple;
+    }
+
+    .home .myphoto img{
+        width: 100%;
+        height: 100%;
+    }
+     
+    .about{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        padding: 15px 5%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+    }
+
+    .about h1{
+        font-size: 40px;
+    }
+
+    .about .container{
+      width: 100%;
+        display: flex;
+       align-items: center;
+       justify-content: space-around;
+       gap: 10px;
+
+    }
+
+    .about .container .box-container{
+        width: 400px;
+        height: 400px;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 10px;
+        gap: 40px;
+        justify-content: start;
+        border: 1px solid black;
+        text-align: justify;
+        background: rgb(243, 243, 243);
+    }
+
+    .about .container .box-container h1{
+        color: purple;
+        font-size: 30px;
+    }
+
+    .about .container .box-container p{
+        font-size: 18px;
+    }
+
+    
+    .about .container .box-container .courses{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .about .container .box-container .courses .mycourse span{
+      font-size: 18px;
+      margin: 20px;
+    }
